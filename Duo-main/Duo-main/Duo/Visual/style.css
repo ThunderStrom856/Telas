@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.432); 
+    align-items: center;
+    font-size: 11px;
+    vertical-align: center;
+}
+
+header img {
+    width: 100%;
+    height: 3%;
+}
+
+#btns {
+    white-space: nowrap;
+    display: flex;
+    float: left;
+    gap: 5px;
+    margin: 10px;
+    background-color:rgba(128, 128, 128, 0.432);
+    padding: 5px;
+    max-height: 25px;
+}
+
+#reload {
+    width: 50px;
+}
+
+#reload img {
+    width: 50%;
+    height: auto;
+}
+
+#save {
+    width: 70px;
+}
+
+#save img{
+    width: 26%;
+    height: auto;
+}
+
+#cancel {
+    width: 90px;
+}
+
+#cancel img{
+    width: 15%;
+    height: auto;
+}
+
+#edit {
+    width: 60px;
+}
+
+#edit img{
+    width: 35%;
+    height: auto;
+}
+
+#sd {
+    
+    width: 100px;
+}
+
+#sd img{
+    width: 17%;
+    height: auto;
+}
+
+.undo {
+    padding-bottom: 9px;
+    width: 70px;
+}
+
+.undo img{
+    width: 28%;
+    height: auto;
+}
+
+#cinza {
+    width: 1700px;
+    background-color:rgba(128, 128, 128, 0);
+}
+
+.container {
+    max-height: 120px;
+}
+
+#navigation{
+    display: flex;
+    gap: 10px;
+    animation-delay: 2ms;
+    align-items: center;
+    background-color: rgb(235, 234, 234);
+    margin: 0;
+    margin-right: 1068px;
+    padding: 1px;
+    padding-left: 15px;
+}
+
+#navigation img {
+    width: 15%;
+    height: auto;
+}
+
+#tabela{
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.td_cinza {
+    background-color: rgba(187, 187, 187, 0.651);
+    width: 25px;
+}
+
+tr:hover {background-color: rgba(83, 134, 211, 0.562);}
+
+#tr_cinza {background-color: rgba(187, 187, 187, 0.651);}
+
+#aside{
+    gap: 40px;
+    display: flex;
+    transform: translate(20%, 60%);
+}
+
+#aside h2 {
+    transform: translate(0%, 23%);
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 11pt;
+    display: flex;
+    
+}
+
+#btns1 {
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+    background-color:rgba(128, 128, 128, 0.432);
+    padding: 5px; 
+    margin-right: 1068px;
+}
+
+#trash {
+    width: 50px;
+}
+
+#trash img {
+    width: 70%;
+    height: auto;
+}
+
+#paper {
+    width: 50px;
+}
+
+#paper img {
+    width: 70%;
+    height: auto;
+}
+
+#mecanico {
+    width: 50px;
+}
+
+#mecanico img {
+    width: 90%;
+    height: auto;
+}
+

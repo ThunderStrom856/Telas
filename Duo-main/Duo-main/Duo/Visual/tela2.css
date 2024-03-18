@@ -1,0 +1,128 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#section1 {
+    display: block;
+}
+
+#sectionA {
+    display: flex;
+    margin-left: 0px;
+    background-color: rgb(217, 232, 253);
+    border-radius: 20px;
+    display: flex;
+    width: 1000px;
+    margin-bottom: 20px;
+}   
+
+#sectionB {
+    display: flex;
+    margin-left: 0px;
+    background-color: rgb(217, 232, 253);
+    border-radius: 20px;
+    display: flex;
+    width: 1000px;
+}   
+
+#divA {
+    display: flex;
+}
+
+#divA2 {
+    color: rgb(22, 50, 174);
+    margin-left: 10px;
+}
+
+#robo img {
+    height: auto;
+    border-radius: 20px;
+}
+
+#bt {
+    display: flex;
+}
+
+#bt1 {
+    margin-top: 181px;
+}
+
+#btn {
+    position: relative;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 150px;
+    height: 35px;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    background-color:rgb(22, 50, 174);
+    text-align: initial;
+}
+
+#btn1 {
+    display: flex;
+}
+
+#buttons {
+    display: block;
+    margin-left: 80px;
+    margin-top: 65px;
+}
+
+.button {
+    position: relative;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 350px;
+    max-height: 25px;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    background-color:rgb(22, 50, 174);
+    margin-bottom: 7px;
+}
+
+#buttons1 {
+    display: block;
+    margin-top: 65px;
+}
+
+.button1 {
+    position: relative;
+    font-size: 10px;
+    border-radius: 100%;
+    width: 22px;
+    height: 22px;
+    z-index: 1;
+    color: rgb(22, 50, 174);
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    background-color:rgb(255, 255, 255);
+    margin-bottom: 8px;
+}
+
+#divB {
+    display: flex;
+}
+
+#divB2 {
+    color: rgb(22, 50, 174);
+    margin-left: 20px;
+}
+
+#divB3 {
+    color: rgb(22, 50, 174);
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+
+#mais {
+    margin-left: 20px;
+}
